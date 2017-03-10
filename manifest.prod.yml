@@ -1,0 +1,8 @@
+applications:
+- name: myappprod
+  command: node server.js
+  path: .
+  memory: 512M
+  disk_quota: 2048M
+  env:
+    NODE_ENV: production

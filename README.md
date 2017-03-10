@@ -1,0 +1,5 @@
+- Express 
+- ReactJS
+- Webpack + Hot Module Replacement
+- PostCSS
+- ESLint (for VSCode)

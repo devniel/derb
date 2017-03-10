@@ -1,0 +1,136 @@
+body {
+  background: #212C38;
+}
+
+.layout {
+ display: flex;
+ align-items: center;
+ vertical-align: middle
+}
+
+#content {
+  text-align: center;
+  width: 300px;
+  height: initial;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  flex: 1;
+}
+
+
+#content
+.logo
+img {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#content-auth {
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+#content-auth .wrapper {
+  height: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#content-auth .title {
+  font-family: 'Montserrat';
+  margin-bottom: 30px;
+  color: #212C38;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+#content-auth .title {
+  font-family: 'Montserrat';
+  margin-bottom: 30px;
+  color: #212C38;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 0px;
+  background: #FAFAFA;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.1);
+}
+#content-auth .bform {
+  padding: 20px;
+  min-height: 200px;
+}
+.input {
+  height: 30px;
+  border: 0;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #EFEFEF;
+  font-size: 13px;
+  font-family: 'Montserrat';
+  background: #FFFFFF;
+  color: #333;
+  line-height: 30px;
+  padding: 0 10px 0 8px;
+  outline-offset: 0!important;
+  box-sizing: border-box;
+  padding-left: 0px;
+}
+
+/** Tooltip **/
+
+.tooltip-wrapper .tooltip {
+  display: none;
+}
+.tooltip-wrapper:hover {
+  cursor: pointer;
+}
+.tooltip-wrapper:hover .tooltip {
+  display: block;
+}
+.tooltip {
+  position: absolute;
+  z-index: 1;
+  background: #FFF;
+  font-size: 11px;
+  width: 145px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  left: 30px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+/** Error **/
+
+.error {
+  padding: 7px 32px;
+  position: relative;
+  color: #FFF;
+  border-color: #d72828;
+  border-width: 1px;
+  font-size: 17px;
+  background: #ff5353;
+  margin: 20px 0px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-size: 11px;
+}
+
+.error:before {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: url('/img/icons/48/assistant-48.png') center;
+  background-size: 48px 48px;
+  left: -20px;
+  top: -6px;
+}

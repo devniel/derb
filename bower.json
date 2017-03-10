@@ -1,0 +1,21 @@
+{
+  "name": "arturito",
+  "description": "Devniel's Express with React Boilerplate",
+  "main": "server.js",
+  "authors": [
+    "devniel"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "loaders.css": "^0.1.2"
+  }
+}
